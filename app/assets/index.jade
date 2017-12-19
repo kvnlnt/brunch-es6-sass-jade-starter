@@ -1,0 +1,10 @@
+
+html
+  head
+    title= pageTitle
+    link(rel="stylesheet", href="/module.css")
+    script(src="/module.js")
+    script.
+      require("initialize");
+  body
+    include ./module.jade
