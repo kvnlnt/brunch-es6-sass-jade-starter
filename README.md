@@ -1,28 +1,41 @@
-# Brunch + Babel/ES6
+# Hemotimeline
 
-This is a modern JS skeleton for [Brunch](http://brunch.io).
+This app is an interactive timeline made to illustrate milestones reached by Novo Nordisk's HCP portfolio. It has been written using native javascript, css and html and made to work inside our WEM "Interactive Module" component.
 
 ## Installation
 
-Clone this repo manually or use `brunch new dir -s es6`
+```sh
+yarn
+```
 
-## Getting started
+## Development
 
-* Install (if you don't have them):
-    * [Node.js](http://nodejs.org): `brew install node` on OS X
-    * [Brunch](http://brunch.io): `npm install -g brunch`
-    * Brunch plugins and app dependencies: `npm install`
-* Run:
-    * `npm start` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
-    * `npm run build` — builds minified project for production
-* Learn:
-    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
-    * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
+```sh
+npm serve
+```
 
-## ES-next
+## Testing
 
-To use proposed JS features not included into ES6, do this:
+TODO
 
-* `npm install --save-dev babel-preset-stage-0`
-* in `brunch-config.js`, add the preset: `presets: ['latest', 'stage-0']`
+## Deployment
+
+```sh
+npm build
+```
+
+### Simulator
+
+### Staging
+
+### Production
+
+## FYIs
+
+### UUID
+
+The app's uuid is `f2042e91-79ef-406c-8272-c1a1899522ec`.
+
+```sh
+
+```

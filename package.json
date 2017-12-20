@@ -17,6 +17,8 @@
     "brunch": "^2",
     "clean-css-brunch": "^2",
     "jade-brunch": "^2.8.0",
+    "pugjs-brunch": "^2.10.1",
+    "stylus-brunch": "^2.10.0",
     "uglify-js-brunch": "^2"
   }
 }
